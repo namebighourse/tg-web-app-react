@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.container{
+ 
+    background: #181818;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animate__animatedanimate__start-text{
+  color: white;
+  animation: pulse;
+  animation-duration: 2s;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-weight: 400;
+  margin: 15px;
+}
+.button-quest{
+  color: rgb(0, 0, 0);
+  background-color: #c4c2c2;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  border: #818181 solid 2px;
+  font-family: 'Montserrat';
+  margin: 0px;
+}
+.button-quest:active{
+  background-color: #929292;
+  color: rgb(219, 219, 219);
+
+}
