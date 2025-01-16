@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+.button{
+  border: none;
+}
 html,
 body {
   margin: 0;
@@ -28,19 +30,19 @@ body {
   font-size: 48px;
   font-weight: 400;
   margin: 15px;
+  font-weight: bold
 }
 .button-quest{
-  color: rgb(0, 0, 0);
-  background-color: #c4c2c2;
+  color: rgb(39, 39, 39);
+  background-color: #ffffff;
   height: 30px;
   width: 150px;
   border-radius: 15px;
-  border: #818181 solid 2px;
+
   font-family: 'Montserrat';
   margin: 0px;
 }
 .button-quest:active{
-  background-color: #929292;
-  color: rgb(219, 219, 219);
-
+  background-color: #ffffff;
+  color: rgb(12, 12, 12);
 }
